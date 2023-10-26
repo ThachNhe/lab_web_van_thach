@@ -1,0 +1,94 @@
+.title {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.fetch-api-container {
+  .get-user-container {
+    .title-get-user {
+      font-weight: 600;
+      font-size: 17px;
+    }
+    .box-input-info-user {
+      input {
+        margin: 10px 10px;
+      }
+    }
+    .content-get-api {
+      border: 1px solid #cab8b8;
+      background-color: #eeeaea;
+      padding-left: 10px;
+      min-height: 20px;
+      label {
+        font-weight: 600;
+      }
+      .content-user {
+        display: block;
+      }
+      .content-user-no-display {
+        display: none;
+      }
+    }
+  }
+  .get-all-users {
+    .title-get-all-user {
+      margin-top: 20px;
+      font-weight: 600;
+    }
+    button {
+      margin: 10px 0px;
+    }
+    .content-all-users {
+      //some CSS
+      @media screen and (max-width: 400px) {
+        display: block;
+      }
+      @media screen and (min-width: 401px) {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .box-user {
+        width: 49%;
+        height: 200px;
+        margin-top: 20px;
+        .title-box-user {
+          font-size: 20px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  .box-create-post {
+    height: 200px;
+    width: 100%;
+    .title-post {
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .input-info {
+      display: flex;
+      gap: 5px;
+      width: 100%;
+    }
+    .content-post-container {
+      border: 1px solid #cab8b8;
+      //  height: 100px;
+      padding: 10px;
+      background-color: #eeeaea;
+
+      margin-top: 20px;
+      .container-post {
+        display: block;
+      }
+      .container-post-no-display {
+        display: none;
+      }
+      .content-post-title {
+        span {
+          font-weight: 500;
+          margin: 10px;
+        }
+      }
+    }
+  }
+}
